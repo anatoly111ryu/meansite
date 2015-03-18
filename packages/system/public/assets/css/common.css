@@ -321,11 +321,11 @@ footer .footer-right-menu-text {
 
 #docs .nav-docs .nav>li>a {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #0f96ba;
     padding: 4px 20px;
-    opacity:0.6;
+   /* opacity:0.6;*/
 }
 
 #docs .nav-docs .nav>.active>a,
@@ -665,4 +665,18 @@ input.cta, a.cta {
 
 #docs .nav-wiki {
     margin-left: -70px !important;
+}
+
+#docs .releases h2 {
+float:left;
+}
+#docs .releases span{
+margin-top:44px;
+margin-left:10px;
+padding-left:10px;
+border-left:1px solid #111;
+float:left;
+}
+#docs .releases ol, #docs .releases h3{
+clear:both;
 }
