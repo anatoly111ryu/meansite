@@ -1,10 +1,11 @@
 <section id="docs" class="content">
-    <section class="container">
+    <section class="container support">
         <div class="col-md-2">
             <div data-ng-include="'/system/views/support/supportbar.html'"></div>
         </div>
         <section class="col-md-10 col-md-offset-2">
-            <h2>Community Support</h2>
+		<tabset>
+		<tab heading="Community Support">
             <div id="Facebook_support" class="support">
 
                 <div class="icn" id="icn_fb">
@@ -41,7 +42,8 @@
                 </div>
             <div class="inner-link-anchor" id="github"></div>
             </div>
-
+			</tab>
+<!--
             <div id="GoogleGroup_support" class="support">
                 <div class="icn" id="icn_gg">
                 </div>
@@ -54,9 +56,8 @@
                 </p></div>
             <div class="inner-link-anchor" id="googlegroup"></div>
             </div>
-
-            <h2 style="clear: both;">Commercial Support</h2>
-
+-->
+			<tab heading="Commercial Support">
             <div class="commercial_support">
                 <p>We at <a href="http://linnovate.net">Linnovate</a> have developed mean.io initially to scratch our
                     own itch but now to help developers and organizations around the work - <strong>GET MEAN.</strong>
@@ -81,7 +82,8 @@
                 <div class="inner-link-anchor" id="hosting"></div>
                 <p>We provide affordable, secure and scalable web hosting of mean apps - coming soon!</p>
             </div>
-
+			</tab>
+			</tabset>
             <h2>Frequently Asked Questions</h2>
 
             <div class="inner-link-anchor" id="faq"></div>

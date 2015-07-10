@@ -680,3 +680,21 @@ float:left;
 #docs .releases ol, #docs .releases h3{
 clear:both;
 }
+
+#docs a[name] {
+  padding-top: 40px;
+  margin-top: -40px;
+  display: inline-block; /* required for webkit browsers */
+}
+
+#docs .support .nav-tabs{
+	margin-top:20px;
+	margin-bottom:40px;
+}
+#docs .support .nav-tabs > li a{
+font-size:2em ;
+color:#ccc;
+}
+#docs .support .nav-tabs > li.active a{
+color:#000;
+}
